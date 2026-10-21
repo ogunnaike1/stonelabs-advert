@@ -1,5 +1,7 @@
 # Stone Labs — Studio Reel (40 s · 9:16 and 16:9 · 4K)
 
+> **Want to make your own version?** See [GETTING_STARTED.md](GETTING_STARTED.md) for install, preview, render and customise steps.
+
 Remotion + Three.js project, 60 fps, H.264. One source renders both formats:
 - **9:16:** default props → 1080×1920; with `--scale=2` → **2160×3840**
 - **16:9:** `--props='{"format":"16x9"}'` → 1920×1080; with `--scale=2` → **3840×2160**. It uses its own landscape bento layouts (`src/layout.ts`, `src/format.ts`).
